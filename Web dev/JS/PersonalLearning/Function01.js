@@ -1,16 +1,12 @@
-// Function input(argument), code, output
-
-let greatUser = function(){
-    console.log('Welcome user')
+// Welcome to new user - JS Code Here
+const getUser = () => {
+    console.log("Welcome User");
 }
+getUser();
 
-greatUser()
-
-let square = function(num){
-    let result = num * num
-    return result
+// Get the square value - JS Code Here
+const square = ( num ) => {
+    return num * num;
 }
-let value = square(3)
-let othervalue = square(10)
-console.log(value)
-console.log(othervalue)
+console.log(square(3));
+console.log(square(10));
